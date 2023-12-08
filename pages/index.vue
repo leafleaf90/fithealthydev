@@ -1,7 +1,7 @@
 <template>
-  <div class="hero min-h-screen bg-base-200">
+  <div class="hero min-h-screen">
     <div class="flex-col hero-content">
-      <div class="hero-content flex-col lg:flex-row-reverse">
+      <div class="flex-col flex lg:flex-row-reverse">
         <img
           src="../assets/HealthyFit Cover COMINGSOON Mockup2.jpg"
           class="max-w-xs md:max-w-lg rounded-lg shadow-2xl self-start"
@@ -12,21 +12,41 @@
           </h1>
           <div class="my-4">
             <p class="my-2">
-              <Icon name="mdi:tools" size="2em" /> Best-of-breed tools for
-              maximizing your well-being and fitness.
+              <Icon
+                name="mdi:tools"
+                size="3em"
+                class="bg-base-200 rounded-full p-2"
+              />
+              Best-of-breed tools for maximizing your well-being and fitness.
             </p>
 
             <p class="my-2">
-              <Icon name="mdi:star-outline" size="2em" color="yellow" /> Curated
-              from a wide-range of experts, described in an easy to absorb way.
+              <Icon
+                name="twemoji:star"
+                size="3em"
+                class="bg-base-200 rounded-full p-2"
+                color="orange"
+              />
+              Curated from a wide-range of experts, described in an easy to
+              absorb way.
             </p>
             <p class="my-2">
-              <Icon name="mdi:book-open" size="2em" color="white" /> 50 chapters
-              covering health, fitness and productivity.
+              <Icon
+                name="twemoji:open-book"
+                size="3em"
+                class="bg-base-200 rounded-full p-2"
+                color=""
+              />
+              50 chapters covering health, fitness and productivity.
             </p>
             <p class="my-2">
-              <Icon name="mdi:plus" size="2em" color="red" /> Now with added
-              Bonus Toolset!
+              <Icon
+                name="mdi:plus"
+                size="3em"
+                class="bg-base-200 rounded-full p-2"
+                color="red"
+              />
+              Now with added Bonus Toolset!
             </p>
           </div>
           <div>
